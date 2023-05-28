@@ -4,6 +4,7 @@
     --primary-text-color: #2E2F42;
     --pramary-accent-color: #4D5AE5;
     --active-link-color: #FFFFFF;
+    --text-color-paragraf: #434455; 
 }
 
 body {
@@ -36,14 +37,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color:var(--primary-text-color);
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
    color: #404bbf;
 }
-.addres {
+.address {
     font-style: normal;
 }
 
@@ -52,7 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #434455;
+    color: var(--pramary-accent-color);
     font-style: normal;
 }
 .header-address-link:hover,
@@ -75,7 +76,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--pramary-accent-color); 
-    background-color: #E7E9FC;
+    background-color: var(--primary-text-color);
     cursor: pointer;
 }
 
@@ -89,7 +90,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--text-color-paragraf);
 
 }
 .main-content-text {
@@ -97,7 +98,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--);
 }
 .footer-logo-link {
     font-family: "Raleway", sans-serif;
@@ -109,7 +110,7 @@ body {
     color:var(--pramary-accent-color);
 }
 .footer-logo-link span {
-    color: var(--active-link-color); 
+    color: #f4f4fd; 
 }
 .footer-digital {
     font-size: 16px;
@@ -145,7 +146,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--primary-text-color);
     text-align: center;
 }
 .main-strategy-text {
@@ -176,7 +177,7 @@ body {
     text-transform: capitalize;
 }
 .team-title-list {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 .comand-title {
     font-weight: 500;
