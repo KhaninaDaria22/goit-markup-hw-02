@@ -81,7 +81,7 @@ body {
     cursor: pointer;
 }
 
-.main-content-bt-:hover {
+.main-content-bt:hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
