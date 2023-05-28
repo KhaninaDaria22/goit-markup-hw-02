@@ -53,7 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--pramary-accent-color);
+    color: var(--text-color-paragraf);
     font-style: normal;
 }
 .header-address-link:hover,
@@ -177,6 +177,11 @@ body {
     text-transform: capitalize;
 }
 .team-title-list {
+    background-color: #FFFFFF;
+
+
+}
+.team-title-iteam {
     background-color: #FFFFFF;
 }
 .comand-title {
