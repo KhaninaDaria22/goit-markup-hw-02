@@ -78,18 +78,9 @@ body {
     background-color: #E7E9FC;
     cursor: pointer;
 }
-.main-content-bt-white {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--pramary-accent-color); 
-    background-color: #E7E9FC;
-    cursor: pointer;
-}
-.main-content-bt-white:hover, 
-.main-content-bt-white:focus {
+
+.main-content-bt-:hover, 
+.main-content-bt:focus {
     color: var(--active-link-color);
     background-color: #404BBF;
 }
