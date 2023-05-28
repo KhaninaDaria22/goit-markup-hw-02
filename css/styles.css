@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color); 
+    color:  #434455; 
+    background-color:  #FFFFFF;
 }
 .list {
     list-style-type: none;
@@ -18,17 +19,16 @@ body {
     text-decoration: none;
 }
 .header-logo {
-    font-family: var(--logo-font);
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color);
-
+    color: #4D5AE5; 
 }
 .header-logo span{
-    color: var(--pramary-accent-color);
+    color:  #2e2f42;
 }
 
 .header-menu-link {
@@ -36,8 +36,15 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--primary-text-color);
+    color:#434455;
+}
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+   color: #404bbf;
+}
+.addres {
+    font-style: normal;
 }
 
 .header-address-link {
@@ -45,28 +52,46 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color:  #434455;
     font-style: normal;
 }
-
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404bbf;
+}
+.addres {
+    font-style: normal;
+}
+.main-content {
+    background-color: #FFFFFF;
+}
+.section-content {
+    background-color: #2E2F42;
+}
 .main-content-bt {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--pramary-accent-color); 
+    background-color: #E7E9FC;
+    cursor: pointer;
 }
 .main-content-bt-white {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--pramary-accent-color);
+    color: var(--pramary-accent-color); 
+    background-color: #E7E9FC;
     cursor: pointer;
 }
 .main-content-bt-white:hover, 
 .main-content-bt-white:focus {
     color: var(--active-link-color);
+    background-color: #404BBF;
 }
 .main-content-title {
     font-weight: 500;
@@ -81,19 +106,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 .footer-logo-link {
-    font-family: var(--logo-font);
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color:var(--pramary-accent-color);
 }
 .footer-logo-link span {
-    color: var(--pramary-accent-color);
+    color: var(--active-link-color); 
 }
 .footer-digital {
     font-size: 16px;
@@ -111,39 +136,56 @@ body {
     color: var(--active-link-color);
 }
 .section-title-bt {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color:var(--active-link-color);
+    background-color: #4D5AE5;
+}
+.section-title-bt:hover, 
+.section-title-bt:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .main-strategy-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: #434455;
+    text-align: center;
 }
 .main-strategy-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color:   #434455;
 }
 .technologies-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+.team {
+    background-color: #F4F4FD;
 }
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-title-list {
+    background-color: #F4F4FD;
 }
 .comand-title {
     font-weight: 500;
@@ -157,5 +199,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: #434455;
+}
+.footer {
+    background-color: #2e2f42;
 }
