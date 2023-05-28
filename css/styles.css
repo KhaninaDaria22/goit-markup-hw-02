@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color) 
+    color: var(--primary-text-color); 
 }
 .list {
     list-style-type: none;
@@ -24,7 +24,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 
 }
 .header-logo span{
@@ -36,7 +36,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
 
 }
 
@@ -45,10 +45,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    font-style: normal;
 }
-
-
 
 .main-content-bt {
     font-weight: 500;
@@ -63,6 +62,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--pramary-accent-color);
+    cursor: pointer;
 }
 .main-content-bt-white:hover, 
 .main-content-bt-white:focus {
@@ -82,4 +82,80 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.footer-logo-link {
+    font-family: var(--logo-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-logo-link span {
+    color: var(--pramary-accent-color);
+}
+.footer-digital {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+}
+.section-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--active-link-color);
+}
+.section-title-bt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:var(--active-link-color);
+}
+.main-strategy-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+.main-strategy-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+.technologies-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+.comand-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+
+}
+.comand-title-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
 }
