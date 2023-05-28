@@ -5,6 +5,7 @@
     --pramary-accent-color: #4D5AE5;
     --active-link-color: #FFFFFF;
     --text-color-paragraf: #434455; 
+    --background-color: #E7E9FC;
 }
 
 body {
@@ -76,7 +77,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--pramary-accent-color); 
-    background-color: var(--primary-text-color);
+    background-color: var(--background-color);
     cursor: pointer;
 }
 
@@ -98,7 +99,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--);
+    color: var(--text-color-paragraf);
 }
 .footer-logo-link {
     font-family: "Raleway", sans-serif;
