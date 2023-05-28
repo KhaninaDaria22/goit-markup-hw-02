@@ -5,7 +5,7 @@
     --pramary-accent-color: #4D5AE5;
     --active-link-color: #FFFFFF;
     --text-color-paragraf: #434455; 
-    --background-color: #E7E9FC;
+    --background-color: #F4F4FD;
 }
 
 body {
@@ -83,7 +83,7 @@ body {
 
 .main-content-bt-:hover, 
 .main-content-bt:focus {
-    color: var(--active-link-color);
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 .main-content-title {
@@ -91,7 +91,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--text-color-paragraf);
+    color: var(--primary-text-color);
 
 }
 .main-content-text {
