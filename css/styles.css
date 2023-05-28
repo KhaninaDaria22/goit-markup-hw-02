@@ -81,9 +81,12 @@ body {
     cursor: pointer;
 }
 
-.main-content-bt-:hover, 
-.main-content-bt:focus {
+.main-content-bt-:hover {
     color: #FFFFFF;
+    background-color: #404BBF;
+}
+.main-content-bt:focus {
+    color: #FFFFFF; 
     background-color: #404BBF;
 }
 .main-content-title {
@@ -178,9 +181,10 @@ body {
     text-transform: capitalize;
 }
 .team-title-list {
+    background-color: #F4F4FD;
+}
+.team-title-item {
     background-color: #FFFFFF;
-
-
 }
 .team-title-iteam {
     background-color: #FFFFFF;
