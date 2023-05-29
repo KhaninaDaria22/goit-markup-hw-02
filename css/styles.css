@@ -10,8 +10,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color:  #434455; 
-    background-color:  #FFFFFF;
+    color:  var(--text-color-paragraf); 
+    background-color:  var(--active-link-color);
 }
 .list {
     list-style-type: none;
@@ -50,12 +50,10 @@ body {
 }
 
 .header-address-link {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color-paragraf);
-    font-style: normal;
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -114,13 +112,13 @@ body {
     color:var(--pramary-accent-color);
 }
 .footer-logo-link span {
-    color: #f4f4fd; 
+    color: var(--background-color); 
 }
 .footer-digital {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--background-color);
 
 }
 .section-title {
@@ -138,7 +136,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:var(--active-link-color);
-    background-color: #4D5AE5;
+    background-color: var(--pramary-accent-color);
 }
 .section-title-bt:hover, 
 .section-title-bt:focus {
@@ -151,13 +149,11 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
-    text-align: center;
 }
 .main-strategy-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:   #434455;
 }
 .technologies-title {
     font-weight: 700;
@@ -201,7 +197,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .footer {
     background-color: #2e2f42;
